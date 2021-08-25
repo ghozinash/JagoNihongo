@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&family=Poppins&display=swap");
+
+.container {
+  width: 1111px;
+}
+
+/* Navbar */
+nav {
+  height: 102px;
+}
+
+nav a.nav-link {
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 4em;
+}
+
+nav a.nav-link:hover {
+  color: #ff9898 !important;
+}
+
+.search-button {
+  margin-right: 1.25em;
+}
+
+.btn-login {
+  display: block;
+  width: 118px;
+  height: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 11px;
+  background-color: #ff9898 !important;
+}
+
+.btn-login:hover {
+  background-color: #ff8181 !important;
+}
+
+.btn:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+/* HERO */
+#hero .container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+h1.hero-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+h1.hero-heading2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+p.child-head {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  font-weight: lighter;
+  font-size: 27px;
+  color: #c4c4c494;
+  margin-right: 90px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  z-index: 1;
+}
+
+.column-illust-hero img {
+  position: absolute;
+  transform: translate(-150px, -20px);
+}
+
+.btn-daftar {
+  display: block;
+  width: 199px;
+  height: 61px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 11px;
+  background-color: #ff9898 !important;
+}
+
+.btn-daftar:hover {
+  background-color: #ff8181 !important;
+}
+
+/* COURSES */
+#course {
+  background: url(images/coursebg.png) top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 758px;
+}
+
+#course h1.text-center {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: bolder;
+  font-size: 42px;
+  transform: translate(-20px, 120px);
+}
+
+#course h1.course-overlay {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: bolder;
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  transform: translateY(69px);
+}
+
+#course .card {
+  box-shadow: 1px 2px 10px #434444;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  width: 15.5rem;
+  border-radius: 40px;
+  border: none;
+}
+
+#course .card:hover {
+  border-radius: 40px;
+  border: none;
+  box-shadow: 1px 2px 8px #434444;
+  transform: scale(1.05);
+}
+
+#course .card-grid {
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+#course h3.choukai {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  transform: translate(69px, -10px);
+}
+
+#course h3.dokkai {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  transform: translate(76px, -10px);
+}
+
+#course h3.bunpou {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  transform: translate(72px, -10px);
+}
+
+#course .card-img-top {
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#course p.card-title {
+  font-family: "Poppins Semi-bold", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#course .bi_stack {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #848484;
+}
+
+/* FORUM INTRO */
+#forum-intro .container {
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
+}
+
+#forum-intro h1.intro-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 3rem;
+}
+
+#forum-intro .btn-join {
+  display: block;
+  width: 219px;
+  height: 61px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 11px;
+  background-color: #ff9898 !important;
+  margin-top: 1.3rem;
+}
+
+#forum-intro .btn-join:hover {
+  background-color: #ff8181 !important;
+}
+
+/* ARTIKEL POPULER */
+#artik-pop h1.text-center {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+#artik-pop .icon img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+#artik-pop .badge span {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 25px;
+  height: 25px;
+  padding-bottom: 3px;
+  display: flex;
+  color: #c4c4c4;
+  justify-content: center;
+  align-items: center;
+}
+
+#artik-pop .artik-konten-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#artik-pop .judul-artik {
+  font-family: "Roboto Black", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+#artik-pop .isi-artik {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: #a6a3a3;
+  text-align: justify;
+}
+
+#artik-pop .artik-stats {
+  border-top: 1.5px solid lightgray;
+}
+
+#artik-pop .sakura .eye .share img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+#artik-pop .chat img {
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+#artik-pop .value {
+  margin-right: 2.8rem;
+  margin-bottom: -1.5px;
+}
+
+#artik-pop .btn-artikel {
+  display: block;
+  width: 211px;
+  height: 54px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 11px;
+  background-color: #ff9898 !important;
+  margin-top: 1.3rem;
+  transform: translate(435px, 0px);
+}
+
+#artik-pop .btn-artikel:hover {
+  background-color: #ff8181 !important;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  background-color: #ff8181;
+}
+
+footer .nama-tempat {
+  margin-top: 1.25rem;
+  margin-bottom: 0.15rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+footer .alamat {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+}
+
+footer p.menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+footer ul.daftar-menu {
+  padding-left: 0;
+}
+
+footer ul.daftar-menu li a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: white !important;
+  text-decoration: none;
+}
+
+footer .fab {
+  margin-right: 0.25rem;
+}

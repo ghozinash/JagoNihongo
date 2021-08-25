@@ -1,0 +1,57 @@
+.footer-content-top {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+}
+
+.address-logo img {
+  width: 113px;
+  height: 44px;
+}
+
+footer .nama-tempat {
+  margin-top: 1.25rem;
+  margin-bottom: 0.15rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+footer .alamat {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+}
+
+footer .sec-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .sec-menu-info {
+  margin-left: -2em;
+}
+
+footer .sec-menu-ikut {
+  margin-left: -2em;
+}
+
+footer .sec-hubungi {
+  margin-left: -3em;
+}
+
+footer p.menu-1 {
+  margin-left: 2.1em;
+}
+
+footer ul li a {
+  font-family: "Rubik", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white !important;
+}
+
+.fab {
+  margin-right: 0.5rem;
+}

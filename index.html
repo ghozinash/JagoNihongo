@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="webfonts/all.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="155" height="61" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#course">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Artikel</a>
+              </li>
+            </ul>
+            <a class="search-button" href="#">
+              <img src="images/fe_search.svg" alt="" width="41" height="41" />
+            </a>
+            <button type="button" class="btn btn-login">Login</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container mt-3 mb-3">
+        <div class="row">
+          <div class="column-text-heading col-lg-6">
+            <h1 class="hero-heading">
+              Belajar <span style="color: #ff9898">Bahasa Jepang</span>
+            </h1>
+            <h1 class="hero-heading2">Bersama Kami</h1>
+            <p class="child-head">
+              Disini kamu akan dengan mudah mempelajari Bahasa Jepang dengan
+              metode yang kami punya
+            </p>
+            <button type="button" class="btn btn-daftar">Daftar Yuk!</button>
+          </div>
+          <div class="column-illust-hero col-lg-6">
+            <img src="images/LandingPage.png" alt="" width="827" height="517" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Section -->
+    <section id="course">
+      <div class="container">
+        <h1 class="text-center">Courses</h1>
+        <!-- Card Test -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="card-grid">
+              <h3 class="choukai">Choukai</h3>
+              <div class="card">
+                <img src="images/bgcard2.png" class="card-img-top" alt="..." />
+                <div class="card-img-overlay">
+                  <h1 class="course-overlay">聴解</h1>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">
+                    Mendengar dan memahami <br />
+                    dialog Bahasa Jepang
+                  </p>
+                </div>
+                <p class="bi_stack">
+                  <img src="images/bi_stack.svg" alt="" /> 5 Level
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Card Test -->
+          <div class="col-lg-4">
+            <div class="card-grid">
+              <h3 class="dokkai">Dokkai</h3>
+              <div class="card">
+                <img src="images/bgcard2.png" class="card-img-top" alt="..." />
+                <div class="card-img-overlay">
+                  <h1 class="course-overlay">読解</h1>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">
+                    Memahami artikel <br />
+                    Bahasa Jepang
+                  </p>
+                </div>
+                <p class="bi_stack">
+                  <img src="images/bi_stack.svg" alt="" /> 5 Level
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Card Test -->
+          <div class="col-lg-4">
+            <div class="card-grid">
+              <h3 class="bunpou">Bunpou</h3>
+              <div class="card">
+                <img src="images/bgcard2.png" class="card-img-top" alt="..." />
+                <div class="card-img-overlay">
+                  <h1 class="course-overlay">文法</h1>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">
+                    Memahami grammar <br />
+                    Bahasa Jepang
+                  </p>
+                </div>
+                <p class="bi_stack">
+                  <img src="images/bi_stack.svg" alt="" /> 5 Level
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+        </div>
+      </div>
+    </section>
+    <!-- End of Course -->
+
+    <!-- Forum Intro -->
+    <section id="forum-intro">
+      <div class="container">
+        <div class="row">
+          <div class="forum-image col-lg-6">
+            <img src="images/forum.png" alt="" width="466" height="351" />
+          </div>
+          <div class="forum-intro-text col-lg-6">
+            <h1 class="intro-text">
+              Kita juga punya forum untuk kalian saling berbagi dan bertanya
+              soal Jejepangan
+            </h1>
+            <button type="button" class="btn btn-join">Gabung Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Forum Intro -->
+
+    <!-- Artikel Populer -->
+    <section id="artik-pop">
+      <div class="container mb-5">
+        <h1 class="text-center mt-5 mb-5">Artikel Populer Hari ini</h1>
+        <div class="row">
+          <!-- Konten 1 -->
+          <div class="col-lg-4">
+            <div class="card p-3 mb-1">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-row align-items-center">
+                  <div class="icon"><img src="images/reol.jpg" alt="" /></div>
+                  <div class="ms-2 c-details">
+                    <h6 class="mb-0">REOL</h6>
+                    <span>2 jam lalu</span>
+                  </div>
+                </div>
+                <div class="badge"><span>...</span></div>
+              </div>
+              <div class="mt-4">
+                <img class="artik-konten-img" src="images/kereta.png" alt="" />
+              </div>
+              <div class="mt-4">
+                <h1 class="judul-artik">Train Going Wush Wush</h1>
+              </div>
+              <div class="mt-1">
+                <p class="isi-artik">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolor delectus ab architecto cum laudantium dolorum maxime
+                  impedit doloremque, laborum iste iure! Autem illum magnam iure
+                  quisquam, repellendus quaerat quidem ducimus.
+                </p>
+              </div>
+              <div class="artik-stats">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="sakura">
+                      <img src="images/Sakura.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">132</h6>
+                    </div>
+                    <div class="comment">
+                      <img src="images/chat.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">20</h6>
+                    </div>
+                    <div class="views">
+                      <img src="images/eye.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">2258</h6>
+                    </div>
+                    <div class="share">
+                      <img src="images/share.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">18</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Konten 1 -->
+          <!-- Konten 2 -->
+          <div class="col-lg-4">
+            <div class="card p-3 mb-1">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-row align-items-center">
+                  <div class="icon">
+                    <img src="images/shizuku.jpg" alt="" />
+                  </div>
+                  <div class="ms-2 c-details">
+                    <h6 class="mb-0">Shizuku</h6>
+                    <span>7 jam lalu</span>
+                  </div>
+                </div>
+                <div class="badge"><span>...</span></div>
+              </div>
+              <div class="mt-4">
+                <img
+                  class="artik-konten-img"
+                  src="images/omarupolka.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-4">
+                <h1 class="judul-artik">Your Thoughts About Polka</h1>
+              </div>
+              <div class="mt-1">
+                <p class="isi-artik">
+                  Oruka polka owaruka polka Oruka polka owaruka polka Oruka
+                  polka owaruka polka Oruka polka owaruka polka Oruka polka
+                  owaruka polka Oruka polka owaruka polka Oruka polka owaruka
+                  polka Oruka polka owaruka polka Oruka polka owaruka polka
+                  Oruka polka owaruka polka
+                </p>
+              </div>
+              <div class="artik-stats">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="sakura">
+                      <img src="images/Sakura.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">115</h6>
+                    </div>
+                    <div class="comment">
+                      <img src="images/chat.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">10</h6>
+                    </div>
+                    <div class="views">
+                      <img src="images/eye.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">1256</h6>
+                    </div>
+                    <div class="share">
+                      <img src="images/share.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">20</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Konten 2 -->
+          <!-- Konten 3 -->
+          <div class="col-lg-4">
+            <div class="card p-3 mb-1">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-row align-items-center">
+                  <div class="icon"><img src="images/ayane.jpg" alt="" /></div>
+                  <div class="ms-2 c-details">
+                    <h6 class="mb-0">Ayaneru</h6>
+                    <span>9 jam lalu</span>
+                  </div>
+                </div>
+                <div class="badge"><span>...</span></div>
+              </div>
+              <div class="mt-4">
+                <img
+                  class="artik-konten-img"
+                  src="images/redshift.png"
+                  alt=""
+                />
+              </div>
+              <div class="mt-4">
+                <h1 class="judul-artik">REDSHiFT makin' a new banger again!</h1>
+              </div>
+              <div class="mt-1">
+                <p class="isi-artik">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis sit obcaecati, quia praesentium porro adipisci soluta
+                  nisi expedita! Distinctio officia necessitatibus voluptates
+                  explicabo optio iure, tenetur numquam facere inventore odio?
+                </p>
+              </div>
+              <div class="artik-stats">
+                <div class="d-flex justify-content-between mt-2">
+                  <div class="d-flex flex-row align-items-center">
+                    <div class="sakura">
+                      <img src="images/Sakura.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">104</h6>
+                    </div>
+                    <div class="comment">
+                      <img src="images/chat.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">12</h6>
+                    </div>
+                    <div class="views">
+                      <img src="images/eye.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="ms-1 mb-0">1323</h6>
+                    </div>
+                    <div class="share">
+                      <img src="images/share.png" alt="" />
+                    </div>
+                    <div class="value">
+                      <h6 class="mb-0">11</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Konten 3 -->
+        </div>
+        <button type="button" class="btn btn-artikel">
+          Lihat Artikel Lain
+        </button>
+      </div>
+    </section>
+    <!-- End of Artikel Populer -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img
+              class="footer-logo"
+              src="images/logo.png"
+              alt=""
+              width="113"
+              height="44"
+            />
+            <div class="address-detail">
+              <p class="nama-tempat">Jago Nihongo Shrine</p>
+              <p class="alamat">
+                Jl. Jatimulya Raya Blok H 298 Jatimulya, Tambun Selatan, Bekasi,
+                Provinsi Jawa Barat 17512
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <p class="menu">Jago Nihongo</p>
+            <ul type="none" class="daftar-menu">
+              <li>
+                <a href="#hero">Beranda</a>
+              </li>
+              <li>
+                <a href="#course">Courses</a>
+              </li>
+              <li>
+                <a>Forum</a>
+              </li>
+              <li>
+                <a>Artikel</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="menu">Informasi</p>
+            <ul type="none" class="daftar-menu">
+              <li>
+                <a>Tentang Kami</a>
+              </li>
+              <li>
+                <a>Layanan Pengaduan</a>
+              </li>
+              <li>
+                <a>Ketentuan Kursus</a>
+              </li>
+              <li>
+                <a>Karir</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <p class="menu">Ikuti Kami</p>
+            <ul type="none" class="daftar-menu">
+              <li>
+                <a><i class="fab fa-facebook"></i>Facebook</a>
+              </li>
+              <li>
+                <a><i class="fab fa-twitter"></i>Twitter</a>
+              </li>
+              <li>
+                <a><i class="fab fa-instagram"></i>Instagram</a>
+              </li>
+              <li>
+                <a><i class="fab fa-youtube"></i>YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <p class="menu">Hubungi Kami</p>
+            <ul type="none" class="daftar-menu">
+              <li>
+                <a><i class="fas fa-phone-alt"></i> 021-8493249</a>
+              </li>
+              <li>
+                <a><i class="fab fa-whatsapp"></i>082246545168</a>
+              </li>
+              <li>
+                <a><i class="fas fa-envelope"></i> cs@jagonihongo.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </head>
+</html>
